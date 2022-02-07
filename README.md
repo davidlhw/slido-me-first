@@ -27,19 +27,19 @@ To use the bot, you need the following:
 
     You'll need to access the slido page and inspect the page element to get the question id.
     
-    ![cursor hovering on question](asset/event_page.jpg?raw=true)  
+    ![cursor hovering on question](./assets/event_page.jpg?raw=true)  
     <br>
-    ![cursor hovering on question](asset/inspect_element_on_page.jpg?raw=true)
+    ![cursor hovering on question](./assets/inspect_element_on_page.jpg?raw=true)
 
     Click on your question and copy the value for `data-qid` from the element (it is `48098225` in this case).
 
-    ![copy data-qid value](asset/copy_data-qid.jpg?raw=true)
+    ![copy data-qid value](./assets/copy_data-qid.jpg?raw=true)
 
 ### Running the bot
 
 Simply copy the following to a terminal:
 
-```shell
+```
 python vote.py -u <url> -q <data-qid> -v <number of vote>
 ```
 
