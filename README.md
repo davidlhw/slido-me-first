@@ -1,6 +1,6 @@
-# Slido Vote Me
+# Slido Me First
 
-A simple vote bot for the audience interaction tool Slido (sli.do) made in Python.
+A simple voting bot for the audience interaction tool Slido (sli.do) made in Python. Vote for your question as often as you like.
 
 ## Installation
 
